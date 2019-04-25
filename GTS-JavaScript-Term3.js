@@ -12,3 +12,5 @@ function closeForm() {
     alert("Name must be filled out");
     return false;
   }
+
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
