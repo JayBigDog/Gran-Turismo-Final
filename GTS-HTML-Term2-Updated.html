@@ -12,7 +12,7 @@
 
       <link rel="stylesheet" type="text/css" href="GTS-CSS-Term2-Updated.css">
 
-      <script src="GTS-JavaScript-Term3.js"> </script>
+      <script src="GTS-JavaScript-Term3.js" async> </script>
 
       <div class="container">
 
@@ -48,7 +48,58 @@
 
      <main>
 
-        <img id="SlideShow" name="slide" width="400" height="200">
+
+         <div class="slideshow-container">
+
+           <div class="mySlides fade">
+
+             <div class="numbertext">1 / 3</div>
+
+             <img src="Images/GTSportVR.jpg" style="width:100%">
+
+             <div class="text">Vr Image</div>
+
+           </div>
+
+           <div class="mySlides fade">
+
+             <div class="numbertext">2 / 3</div>
+
+             <img src="Images/gran-turismo-sport-screen-02.jpg" style="width:100%">
+
+             <div class="text">Concept Mazda Supercar</div>
+
+           </div>
+
+           <div class="mySlides fade">
+
+             <div class="numbertext">3 / 3</div>
+
+             <img src="Images/gran-turismo-sport.png" style="width:100%">
+
+             <div class="text">Super Cars Racing at Dragon Trail -Seaside</div>
+
+           </div>
+
+           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+         </div>
+
+         <br>
+
+
+
+         <div style="text-align:center">
+
+           <span class="dot" onclick="currentSlide(1)"></span>
+
+           <span class="dot" onclick="currentSlide(2)"></span>
+
+           <span class="dot" onclick="currentSlide(3)"></span>
+
+         </div>
 
         <h2>PlayStation's Flagship Racing Simulator</h2>
 
@@ -298,6 +349,4 @@
 
         </footer>
 
-
-
-    <script></script></body>
+      </body>
