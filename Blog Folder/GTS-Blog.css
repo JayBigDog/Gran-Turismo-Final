@@ -1,126 +1,70 @@
 body {
-
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-
     margin-left: auto;
-
 }
-
-
 
 .container {
-
     width: 80%;
-
     margin: 0 auto;
-
 }
-
-
 
 header {
-
     background: #A9A9A9;
-
      position: -webkit-sticky;
-
      position: sticky;
-
      top: 2px;
-
 }
-
-
 
 header:after {
-
     content: ' ';
-
     display: table;
-
     clear: both;
-
 }
-
-
 
 .logo {
-
     float: left;
-
     height: 50px;
-
     width: 60px;
-
     padding: 7px;
-
 }
-
-
 
 nav {
-
   float: right;
-
 }
-
-
 
 nav ul {
-
     margin: 0;
-
     padding:0;
-
     list-style: none;
-
 }
-
-
 
 nav li {
-
     display: inline-block;
-
     text-align: center;
-
     margin-left: 10px;
-
     padding-top: 20px;
-
 }
-
-
 
 nav a {
-
     color: #000000;
-
     text-decoration: none;
-
     text-transform: uppercase;
-
     font-family: Geneva, Tahoma, Verdana, sans-serif;
-
 }
 
-
-
 header nav a:hover {
-
     color: #FF0000;
-
 }
 
 h1 {color: #000000;
-
     text-align: center;
-
 }
 
 h3 {color: rgba(0,0,0,0.8);
     text-align: center;
 }
+
+/*https://www.geeksforgeeks.org/comments-in-java/*/
 
 {-webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
@@ -170,71 +114,36 @@ p {
  text-align: right;
 }
 
-
-
-
 footer {
-
     width: 100%;
-
     background-color: #222;
-
     padding: 20px;
-
 }
-
-
 
 footer nav {
-
   float: none;
-
 }
-
-
 
 footer nav ul {
-
     margin: 10px;
-
     padding:10px;
-
     list-style: none;
-
 }
-
-
 
 footer nav li {
-
     display: inline-block;
-
     text-align: center;
-
     margin-left: 10px;
-
     padding-top: 10px;
-
 }
-
-
 
 footer nav a {
-
     color: #FFFFFF;
-
     text-decoration: none;
-
     text-transform: capitalize;
-
     font-family: Geneva, Tahoma, Verdana, sans-serif;
-
 }
 
-
-
 footer nav a:hover {
-
     color: #FF0000;
-
 }
