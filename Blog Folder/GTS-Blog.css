@@ -64,6 +64,14 @@ h3 {color: rgba(0,0,0,0.8);
     text-align: center;
 }
 
+.F1 {
+  height: 46%;
+  width: 88%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*https://www.geeksforgeeks.org/comments-in-java/*/
 
 {-webkit-box-sizing: border-box;
