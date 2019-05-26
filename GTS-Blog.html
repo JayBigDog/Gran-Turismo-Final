@@ -4,7 +4,7 @@
     <title> Gran Turismo Sport Blog</title>
       <link rel="stylesheet" type="text/css" href="GTS-Blog.css">
       <script src="GTS-Blog.js"> </script>
-      <div class="container">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
         <img src="Images/Gran_Turismo_logo_2013.png" alt="logo" class="logo">
           <nav>
             <ul>
@@ -19,11 +19,42 @@
     <h1> Gran Turismo Sport Community Blog </h1>
     <h3>Wecome to the Gran Turismo Sport Community Blog, feel free to discuss anything regarding the Gran Turismo Game, its updates and more.</h3>
     <img class="F1" src="Images/LewisF1.jpg" alt="Lewis Hamilton Formula 1">
-    <select>
-      <option value="en">ENGLISH</option>
-    </select><br>
-    <input type="text"><br>
-    <input type="submit" value="Submit"><br>
+
+    <!--https://www.w3schools.com/howto/howto_css_signup_form.asp-->
+
+      <div class="info">
+        <label for="example">Enter Comments and Questions here:
+        </label>
+        <input id="example" type="text"
+               name="Ntext" size="20">
+        <input id="sent" type="submit"
+               value="Submit">
+    </div>
+      <p id="para">
+      </p>
+
+    <!--https://www.w3schools.com/howto/howto_css_signup_form.asp-->
+
+            <h1 id="SignForm">Stay in the Action:</h1>
+              <h1 class= sub>Sign Up for Weekly Updates</h1>
+              <h3>Fill in the following form if you wish to receive weekly updates on Gran Turismo Sport and its Community.</h3>
+              <hr>
+                <label for="Given"><b>Given Name</b></label>
+                <input type="text" placeholder="Enter Given Name" name="Given Name" required="">
+                <label for="Surname"><b>Surname</b></label>
+                <input type="text2" placeholder="Enter Surname" name="Surname" required="">
+                <label for="Email"><b>Email Address</b></label>
+                <input type="text3" placeholder="Enter Email" name="Email" required="">
+              <label>
+                <h>By entering your Email Address, you agree to receive weekly updates from gran.turismo.reviewer@gmail.com. You can Unsubscribe anytime via our options menu.
+              </h3><div class="clearfix">
+
+              <button type="button" class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+           </label></div>
+          </form>
+
    <footer>
      <div class="wrapper">
        <nav>
@@ -39,3 +70,4 @@
      </div>
    </footer>
  </body>
+
