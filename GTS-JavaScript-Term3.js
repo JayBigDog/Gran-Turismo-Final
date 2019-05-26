@@ -1,7 +1,8 @@
   function openForm() {
     document.getElementById("myForm").style.display = "block";
-
 }
+
+//https://www.youtube.com/watch?v=4YQ4svkETS0//
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -13,6 +14,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
 
 function showSlides(n) {
   var i;
