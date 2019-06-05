@@ -1,3 +1,5 @@
+// Submits form (that would be available with database) for email submissions //
+
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 
