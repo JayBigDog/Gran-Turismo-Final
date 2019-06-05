@@ -1,8 +1,11 @@
-  function openForm() {
+// Submits form (that would be available with database) for email submissions //
+
+function openForm() {
     document.getElementById("myForm").style.display = "block";
 }
 
 //Travrsy Media https://www.youtube.com/watch?v=4YQ4svkETS0//
+//This codes pulls out my html slideshow tags, and then set variables to them// 
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -15,6 +18,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+//This code makes my html buttons (arrow and circle) change slide depending on the desired selection.// 
 
 function showSlides(n) {
   var i;
